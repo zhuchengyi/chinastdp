@@ -17,7 +17,6 @@ public class TestController {
 	@RequestMapping(value = "test", method = RequestMethod.GET)
 	@ResponseBody
 	public String test() {
-		System.out.println("asdfasdf");
 		return "test";
 	}
 }
